@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chat Group</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/css/global.css">
+	<link rel="stylesheet" href="/css/todo.css">
+</head>
+<body>
+	 <div class="wrapper">
+	 	<div class="title">
+	 		<div id="iconcha">
+	 			<span id="userIcon"></span>
+		 		<h1 id="userName"></h1>
+		 	</div>
+		 	<button id="log"></button>
+		</div>
+	 	<ul id="ulList" class="todoList">
+	 		
+	 	</ul>
+	 	<div id="send">
+	 		<form id="form" autocomplete="off">
+	 	 		<input type="text" id="todotextInput" placeholder=" Write a message ..." maxlength="250">
+	 			<button id="sendButton" ></button>
+ 			</form>
+	 	</div>
+	 </div>
+	<script src="./js/request.js"></script>
+	<script src="./js/todo.js"></script>
+</body>
+</html>

@@ -1,0 +1,191 @@
+body {
+	display: block;
+	font-family: 'Roboto';
+	background-color: #0E1621;
+	}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 1000px;
+	height: 100vh;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.5);
+	margin: 0 auto;
+	background: url('https://i.pinimg.com/originals/20/99/f2/2099f2dda704cb708fe20347afb964ba.jpg');
+	background-size: contain;
+}
+
+.wrapper form {
+	display: flex;
+	justify-content: space-between;
+}
+
+.wrapper form input:first-child {
+	flex-grow: 1;
+}
+form input,form button {
+	padding: 5px;
+	font-size: 22px;
+}
+
+.todoList li {
+	margin-bottom: 15px;
+	border-radius: 15px;
+	display: flex;
+}
+
+.todoList {
+	margin-top: 5px;
+	display: flex;
+	flex-direction: column;
+	height: 550px;
+	overflow-y: scroll;
+}
+
+.todoList::-webkit-scrollbar {
+	display: none;
+}
+
+.todoList {
+	width: 100%;
+	margin-bottom: 20px;
+	list-style-type: none;
+	padding: 0 30px;
+}
+
+form {
+	width: 100%;
+}
+
+li button {
+	font-weight: bold;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url('/img/trash.png');
+	border: none;
+	background-color: transparent;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.title {
+	display: flex;
+	width: 100%;
+	color: white;
+	background: rgb(0, 42, 64);
+	padding: 10px;
+	align-items: center;
+	justify-content: space-between;
+
+}
+#userName {
+	font-size: 20px;
+}
+
+#send {
+	width: 100%;
+	display: flex;
+}
+
+div input {
+	flex-grow: 1;
+	outline: none;
+	font-size: 25px;
+	background-color: #17212B;
+	border: none;
+	color: white;
+	padding: 10px;
+}
+
+.todoList li div {
+	background: #0E1621;
+	color: white;
+	width: min-content;
+	padding: 10px;
+	padding-left: 15px;
+	border-radius: 15px;
+	max-width: 500px;
+}
+
+#log {
+	width: 40px;
+	height: 40px;
+	background: url('/img/logout.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: none;
+}
+
+#sendButton {
+	width: 40px;
+	height: 40px;
+	padding: 5px;
+	background: url('/img/send.png');
+	background-size: 35px 35px;
+	background-repeat: no-repeat;
+	border: none;
+	background-color: #17212B;
+}
+
+.todoList li div span:last-child {
+	font-size: 12px;
+	color: #6D7F8F;
+}
+
+.todoList li div > span  {
+	font-size: 30px;
+	color: white;
+	margin-right: 12px;
+}
+
+#log:hover {
+	cursor: "pointer;";
+} 
+
+p {
+	font-weight: bold;
+	font-size: 18px;
+	color: #62D4E3;
+	padding: 0;
+	margin-block-start: 0;
+}
+
+.todoList li > h1 {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #7965C1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: 25px;
+	margin-right: 20px;
+	margin-top: 40px ;
+	padding: 0;
+}
+
+#userIcon {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #7965C1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: 25px;
+	margin-right: 10px;
+	margin-left: 20px;
+	padding: 0;
+}
+
+#iconcha {
+	display: flex;
+	align-items: center;
+	width: 200px;
+	justify-content: space-between;
+}
