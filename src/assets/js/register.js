@@ -18,7 +18,7 @@ form.onsubmit = async  event => {
 		message.textContent = resp.message
 		message.style.color = 'green'
 		setTimeout(()=>{
-			window.location.href = '/'
+			window.location = '/'
 		}, 2000)
 	}else {
 		resp = await resp.json()
